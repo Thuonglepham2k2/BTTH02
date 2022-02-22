@@ -8,6 +8,7 @@ body{
     height: 90px;
     display: flex;
     justify-content: center;
+    /* background-color: antiquewhite;*/
 }
 
 #header .header-inner{
@@ -60,4 +61,19 @@ body{
     position: absolute;
     top:0;
     left: 0;
+    background: color #f4f4f4;
+    padding: 10px;
+    width: max-content;
 }
+.main-menu>li: hover .sub-menu li{
+    padding:5px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+.main-menu>li:hover .sub-menu li a{
+    text-decoration: none;
+    color:black;
+}
+
+
+

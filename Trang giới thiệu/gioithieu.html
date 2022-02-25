@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hanoi Aptech | Trung tâm đào tạo Lập trình viên Quốc tế</title>
+    <!-- Inport thư viện CSS Bootstrap -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="gioithieu.css">
+</head>
+<body>
+    <!-- Bootstrap là thư viện chứa 1 tập các lớp CSS được tạo sẵn > Tìm hiểu để DÙNG ... -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                  <img src="logo.png" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Trang chủ</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Hanoi-Aptech
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Giới thiệu</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Cơ sở vật chất</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Giảng viên</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Hỏi đáp</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Chương trình đào tạo
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Lập Trình Viên Quốc Tế ADSE</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Lập Trình Web FullStack</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Các khóa ngắn hạn
+                      </a></li>
+                      <li><a class="dropdown-item" href="#">Khóa Quản Trị Mạng</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Lập trình Java</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Lập Trình .NET</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Lập trình C#</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Lập Trình PHP</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Lập Trình CSDL với SQL</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Liên thông</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Tin tức
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Tin về CNTT</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Lịch thi</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Lịch tuyển sinh</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Tuyển dụng
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Tin tuyển dụng</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Góc nghề nghiệp</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main id="main" class="site-main clr" role="main">
+    <div id="content-wrap" class="container clr">
+        <div id="primary" class="container">
+        <article>
+            <h1 style="font-family: Arial, sans-serif;
+            font-size: 20px;
+            font-weight: 700;
+            letter-spacing: normal;
+            line-height: 26px;
+            text-decoration: none solid rgb(0, 0, 0);
+            text-align: center;
+            word-spacing: 0px">HANOI APTECH - TRƯỜNG ĐÀO TẠO LẬP TRÌNH VIÊN QUỐC TẾ</h1>
+                <div class="text">
+            <p><span style="vertical-align: inherit;">Ra đời từ năm 2001 Hanoi-Aptech tự hào là nhà cung cấp dịch vụ đào tạo Công nghệ thông tin (CNTT) hàng đầu tại Việt Nam cấp bằng Quốc tế. Các Trung tâm Đào tạo Lập trình viên Quốc tế Aptech tại Việt Nam vinh dự là thành viên của Tập đoàn Aptech. Aptech là tập đoàn lớn nhất thế giới về đào tạo CNTT, có </span><strong><span style="vertical-align: inherit;"></span> mặt tại 5 châu lục, đóng vai trò quan trọng trong việc giúp đỡ các cá nhân, tổ chức và quốc gia trong việc trả lời những thay đổi không ngừng của xã hội tri thức. Ra đời từ năm 1986, đến nay Aptech đã đào tạo hàng triệu chuyên gia CNTT trên toàn thế giới.</span></strong></p>
+            <p>Các trung tâm đào tạo của Aptech đều tuân thủ theo một qui trình đào tạo thống nhất được cấp chứng chỉ ISO 9001. Qui trình đào tạo này bao gồm những thành tố như trình độ giáo viên, trang thiết bị đào tạo, qui trình quản lý và kiểm soát chất lượng đào tạo.</p>
+            <p>Chương trình đào tạo của Aptech được cộng đồng thế giới đánh giá cao và quan trọng hơn cả là học viên của Aptech được công nhận rộng rãi, đặc biệt ở những nước có nền công nghệ tiên tiến. Hàng trăm ngàn lập trình viên do Aptech cấp bằng đã và đang làm việc tại Mỹ và các quốc gia phát triển khác.</p>
+            </div>
+        </article>
+        <div class="container">
+        <h2 class="heading-tittle" style="color:#0B249E; font-size: 17px; line-height: 22.1px;
+        font-weight: 600;
+        font-family: Arial, sans-serif;
+        text-align: left;
+        word-spacing: 0px;
+        text-decoration: none solid rgb(11, 36, 158);
+        display: block;">MỘT SỐ THÀNH TỰU CỦA HANOI APTECH</h2></div>
+            <div class="text">
+        <ul><li>17 năm liên tiếp đạt danh hiệu Đơn vị đào tạo Số 1 về CNTT tại Việt Nam kể từ năm 2003 - 2020 (Cúp ICT).</li><li>Giải thưởng đơn vị đào tạo công nghệ thông tin số 1 của Việt nam và các giải thưởng của Ủy ban nhân dân thành phố Hà nội, Hội tin học thành phố Hồ Chí Minh (2003 và 2004).</li><li>Giải đơn vị đào tạo CNTT tín nhiệm nhất trong năm 2007 (Báo Echip bình chọn).</li><li>Giải thưởng Đơn vị đào tạo xuất sắc của VINASA (Hiệp hội phần mềm Việt Nam (2007).</li><li>Hanoi-Aptech có giảng viên đạt giải nhất và 3 giảng viên có tên trong danh sách 10 giảng viên có số điểm cao nhất kỳ thi viết về công nghệ thông tin dành cho các giảng viên toàn hệ thống Aptech tại hơn 40 quốc gia trên toàn thế giới.</li><li>Hanoi-Aptech được trao giải: Giải thưởng xuất sắc nhất về chất lượng đào tạo&#8221; và &#8220;Giải thưởng phát triển bền vững&#8221; do Aptech toàn cầu trao tặng.</li><li>Liên tục trong các kỳ, Hanoi-Aptech luôn có học viên đạt giải thưởng &#8220;Học viên xuất sắc&#8221; do Aptech toàn cầu trao tặng. Liên tiếp nhiều năm Hanoi-Aptech luôn có học viên đạt thành tích dẫn đầu trong hội thi tay nghề thành phố Hà Nội. Trong các giải thưởng của học viên Hanoi-Aptech đã đạt được không thể không kể đến học viên đã giành giải nhất và giải ba trong cuộc thi &#8220;Thách thức lập trình viên&#8221; do Samsung Bada tổ chức với giá trị giải thưởng lên đến 120.000.000đ.</li></ul><p>Các trung tâm đào tạo của Aptech tại Việt Nam là những thành viên nỗ lực của đại gia đình Aptech đang đáp ứng nhu cầu ngày càng tăng về đào tạo lực lượng lập trình viên chuyên nghiệp cũng như nguồn nhân lực có trình độ tin học cao cho các doanh nghiệp, tổ chức trong và ngoài Việt Nam.</p><p>Aptech là cầu nối tri thức giúp bạn thay đổi cuộc sống, vì một tương lai tươi sáng và một sự nghiệp vững chắc.</p>
+        </div>
+        <div class="container">
+        <h2 class="heading-tittle" style="color:#0B249E; font-size: 17px; line-height: 22.1px;
+        font-weight: 600;
+        font-family: Arial, sans-serif;
+        text-align: left;
+        word-spacing: 0px;
+        text-decoration: none solid rgb(11, 36, 158);
+        display: block;">CHI TIẾT CHƯƠNG TRÌNH ĐÀO TẠO</h2></div>
+            <div class="text">
+                <ul><li><a style ="text-decoration: none solid rgb(0, 0, 0);
+                    color:black;" href="https://aptech.vn/lap-trinh-vien-quoc-te-adse">ADSE &#8211; Chương trình đào tạo lập trình viên Quốc Tế</a></li><li><a href="https://aptech.vn/khoa-hoc-ky-thuat-vien-quoc-te">ITT &#8211; Chương trình Kỹ thuật viên Quốc Tế</a></li><li><a href="https://aptech.vn/khoa-hoc-quan-tri-mang-quoc-te">ACNA &#8211; Chương trình Quản trị mạng Quốc Tế</a></li><li>Các khóa học ngắn hạn:<ul><li><a href="https://aptech.vn/khoa-hoc-lap-trinh-php">Khóa lập trình PHP</a></li><li><a href="https://aptech.vn/khoa-hoc-lap-trinh-java">Khóa lập trình Java</a></li><li><a href="https://aptech.vn/khoa-hoc-ngan-han-lap-trinh-net">Khóa lập trình .NET</a></li><li><a href="https://aptech.vn/lap-trinh-co-so-du-lieu-voi-sql">Khóa lập trình CSDL với SQL Server</a></li><li><a href="https://aptech.vn/khoa-hoc-lap-trinh-c">Khóa lập trình C#</a></li></ul></li></ul>
+            </div>
+        <div class="container">
+        <p class="heading-tittle">CHẤT LƯỢNG ĐÀO TẠO</p></div>
+        <div class="container">
+        <p class="heading-tittle">BẰNG LẬP TRÌNH VIÊN QUỐC TẾ</p></div>
+            <div class="text">
+        <p>Hoàn thành chương trình Lập trình viên Quốc Tế, học viên sẽ được cấpvBằng Advanced Diploma in Software Engineering (ADSE) có giá trị trên 40 quốc gia.</p><p>Bằng của Aptech là hệ thống bằng nghề nghiệp có uy tín và được chấp nhận rộng rãi trên thế giới, nó cho phép các sinh viên tốt nghiệp có khả năng làm việc trên nhiều môi trường khác nhau, với các công nghệ và dòng sản phẩm khác nhau.</p><p><strong>Bằng tốt nghiệp 2 năm ADSE có giá trị tự chuyển đổi</strong> và liên thông với một số trường Đại học tại Mỹ, Úc để có thể học tiếp 1.5 &#8211; 2 năm lấy bằng Cử nhân Công nghệ Thông tin (BIT).</p>
+            </div>
+        <div class="container">
+        <p class="heading-tittle">ĐỐI TƯỢNG THAM GIA KHÓA HỌC</p></div>
+        <div class="text">
+        <p><p>Đối tượng đào tạo của Aptech đa dạng, không phân biệt lứa tuổi, giới tính, nghề nghiệp, từ học sinh, sinh viên tới nhân viên trong các doanh nghiệp và doanh nhân &#8211; những ai mong muốn xây dựng cho mình một nghề nghiệp vững chắc và có tương lai, những ai quan tâm và cần đến tin học trong công việc và cuộc sống như một nghề nghiệp chuyên môn hay như một công cụ hỗ trợ.</p>					</div>
+        <div class="container">
+            <p class="heading-tittle">ĐIỀU KIỆN THAM GIA</p>
+        </div>
+            <div class="text">
+        <p>Trước khi nhập học, đối với Chương trình Đào tạo Lập trình viên Quốc tế ADSE, các học viên cần vượt qua một kì thi tuyển gồm hai bài kiểm tra trắc nghiệm: trắc nghiệm toán sơ cấp (GMAT) và trắc nghiệm khả năng đọc hiểu tiếng Anh (TOEFL). Trong quá trình theo học các tài liệu do Aptech cung cấp, các sách tham khảo đều bằng tiếng Anh. Về nguyên tắc các thí sinh không bị giới hạn bởi số lần thi và được bảo lưu kết quả thi.<br />Không có thi tuyển đầu vào đối với chương trình đào tạo Quản trị hệ thống quốc tế ACNA và chương trình đào tạo Kỹ thuật viên Quốc tế ITT.</p>
+        </div>
+        <div class="container">
+            <p class="heading-tittle">GIỚI THIỆU VIỆC LÀM</p>
+        </div>
+        <div class="text">
+            <p>Các sinh viên tốt nghiệp khóa học 2 năm trở lên sẽ có cơ hội tham gia vào các dự án tin học của các công ty lớn trong và ngoài nước. Aptech cung cấp dịch vụ thông tin tư vấn miễn phí cho tất cả các sinh viên cho đến khi tìm được việc làm. Bộ phận giới thiệu việc làm (placement) căn cứ trên nguyện vọng trong hồ sơ việc làm của sinh viên tốt nghiệp chương trình 2 năm trở lên, tiến hành chọn lựa, đào tạo kỹ năng bổ sung cho sinh viên nhằm đạt được thành công khi phỏng vấn tuyển dụng.</p><p>Cơ sở Aptech có bộ phận chuyên trách thường xuyên liên lạc với các công ty trong và ngoài nước để tìm hiểu nhu cầu về lao động tin học, dựa trên nguyện vọng trong hồ sơ việc làm của sinh viên tốt nghiệp chương trình 2 năm. Bộ phận này tiến hành chọn lựa, đào tạo kỹ năng cho sinh viên nhằm đạt thành công khi phỏng vấn.</p>					</div>
+        <div class="container">
+            <p class="heading-tittle">LIÊN THÔNG ĐẠI HỌC QUỐC TẾ</p>		</div>
+        <div class="text">
+            <p>Sau khi hoàn tất khóa học hai năm lấy bằng ADSE sinh viên Aptech có thể học tiếp liên thông đại học lấy bằng cử nhân Đại học CNTT (Bachelor of Information Technology Degree) tại các trường Đại học Quốc Tế thuộc danh sách cá trường đối tác với Aptech. (<a href="https://aptech.vn/tin-tuc-su-kien/lien-thong-vao-dai-hoc-quoc-te.html"><span style="color: #0000ff;"><strong>Chi tiết phần liên thông</strong></span></a>).</p><p>Sau khi có bằng cử nhân có thể học tiếp để lấy bằng thạc sỹ hoặc tiến sỹ. Điều kiện:</p><ul><li>Tốt nghiệp trung học phổ thông.</li><li>Các môn học tại Aptech phải đạt điểm từ 70/100 trở lên.</li><li>Phải có chứng chỉ IELTS từ 6.5 trở lên trong đó không có môn nào đạt dưới 6.0</li><li>Có thư giới thiệu của Giám đốc trung tâm Aptech</li></ul>					</div>
+		<div class="container">
+        <p class="heading-title">THỜI GIAN TUYỂN SINH</p>		
+        </div>
+        <div class="text">
+            <p>Aptech tổ chức thi tuyển sinh đều đặn hàng tháng. Mỗi lớp có một giờ học nhất định được thông báo khi khai giảng. Các khoá học tiêu chuẩn được tổ chức theo thời gian biểu 4 buổi một tuần, mỗi buổi học 2 tiếng. Học viên có thể lựa chọn lịch học thuận tiện nhất cho mình vào các buổi sáng, chiều hoặc tối. Học viên có thể đăng ký học các lớp cấp tốc một năm thay vì hai năm để lấy chứng chỉ HDSE. Tuy nhiên cường độ học tập khá cao đòi hỏi học viên giành nhiều thời gian đọc thêm tài liệu mới cho kết quả tốt</p>
+            <p>Để cập nhập lịch tuyển sinh nhanh nhất các bạn có thể tham khảo fanpage của <a href="https://www.facebook.com/aptech.vn" style="text-decoration: none solid rgb(0 0 0); color:rgb(0, 0, 0); "><strong>Hanoi Aptech</strong></a></p>					</div>
+        <div class="container">
+            <p class="heading-tittle">ĐIỀU KIỆN HỌC TẬP</p>
+        </div>
+        <div class="text">
+            <p>Trong quá trình học, các học viên được sử dụng miễn phí các dịch vụ tại trung tâm như phòng máy, truy cập Internet, sách tại thư viện, các hoạt động văn thể, các buổi nói chuyện chuyên đề. Mọi chi phí thi hết môn, thi lấy chứng chỉ đã bao gồm trong học phí. Học viên được hỗ trợ miễn phí các khóa học Anh Văn tin học khi bắt đầu. Các học viên gặp khó khăn về tài chính được hỗ trợ bằng chương trình Tín dụng Học viên của Trường, theo đó học viên được nhận tín dụng của các ngân hàng đối tác để theo học.</p>  
+            <p>Nhờ có các kiến thức cơ bản về lập trình cộng với phương pháp làm việc khoa học được đào tạo tại Aptech, học viên Aptech có khả năng làm việc trên nhiều môi trường, với nhiều dòng sản phẩm và công nghệ khác nhau, dễ dàng làm chủ các công nghệ mới luôn luôn thay đổi. Mô hình đào tạo đa phương thức AMEDA (Aptech Multi-modal Education Delivery Architecture) chú trọng nâng cao các kỹ năng thực hành và cập nhật, gồm các giờ học lý thuyết, các giờ thực hành, các giờ học trực tuyến và thảo luận theo định hướng, giúp học viên tiếp thu được kiến thức trong thời gian ngắn nhất và có thể áp dụng ngay lập tức các kiến thức đã được học khi bắt đầu làm việc. Đây chính là điểm nổi bật trong chương trình đào tạo của Aptech.</p>
+            <p><span style="vertical-align: inherit;">Show sinh vien of the school University of the learning at Hanoi-Aptech khá đông đảo. Rất nhiều học sinh sau khi kết thúc học tập trung học phổ biến thông tin học tại Aptech thay vì thi đại học.</span></p>
+            <p><span style="vertical-align: inherit;">Các thành viên tốt nghiệp khóa học 2 năm trở lên sẽ có cơ hội tham gia vào các dự án học tập của các công ty lớn trong và ngoài nước. Aptech cung cấp dịch vụ tư vấn miễn phí và hỗ trợ các học viên tốt nghiệp khóa 2 năm cho đến khi tìm thấy công việc.</span></p>
+        </div> 
+    </div>
+
+    <aside id ="right-sidebar" class="right-sidebar">
+    <div id="right-sidebar-inner" class="clr">
+        <div class="textwidget"><p><iframe loading="lazy" style="border: none; overflow: hidden;" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Faptech.vn%2F&amp;tabs=timeline&amp;width=300&amp;height=130&amp;small_header=false&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=true&amp;appId" frameborder="0" scrolling="no" allowfullscreen="true"></iframe></p>
+        </div>
+        <div id="right-inner-4" class="sidebar">
+        <h4 class="widget-title" style="font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: 600;letter-spacing: 0.1px;
+        line-height: 15px; text-decoration: none solid rgb(0, 0, 0); text-transform: capitalize; display: block; ">Học Bổng lên đến 25 Triệu</h4>
+        <a href="https://aptech.vn/tuyensinh"><img width="400" height="158" src="https://aptech.vn/wp-content/uploads/2021/12/hoc-bong-01-400x158.png" alt="" class="" loading="lazy" style="max-width: 100%; height: auto;"></a>
+        </div>
+        <div id="right-inner-2" class="sidebar">
+        <h4 class="widget-title"  style="font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: 600;letter-spacing: 0.1px;
+        line-height: 15px; text-decoration: none solid rgb(0, 0, 0); text-transform: capitalize; display: block; ">Đăng ký nhận tư vấn</h4></div>
+        <div id="right-inner-3" class="sidebar">
+        <h4 class="widget-title"  style="font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: 600;letter-spacing: 0.1px;
+        line-height: 15px; text-decoration: none solid rgb(0, 0, 0); text-transform: capitalize; display: block; ">Bài viết mới</h4>
+        <ul>
+            <li>
+<a href="https://aptech.vn/tuyen-dung/cong-ty-co-phan-dau-tu-phat-trien-va-cong-nghe-cao-nhat-minh.html">CÔNG TY CỔ PHẦN ĐẦU TƯ PHÁT TRIỂN VÀ CÔNG NGHỆ CAO NHẬT MINH</a>
+            <span class="post-date">15/02/2022</span>
+    </li>
+            <li>
+<a href="https://aptech.vn/tin-tuc-su-kien/chao-xuan-2022-rinh-li-xi-sieu-xin-cung-aptech.html">CHÀO XUÂN 2022 &#8211; RINH LÌ XÌ SIÊU XỊN CÙNG APTECH</a>
+            <span class="post-date">08/02/2022</span>
+    </li>
+            <li>
+<a href="https://aptech.vn/tin-ve-cntt/nganh-cong-nghe-thong-tin-diem-sang-trong-dai-dich-covid-19.html">Ngành Công Nghệ Thông Tin &#8211; Điểm sáng trong đại dịch COVID-19</a>
+            <span class="post-date">18/01/2022</span>
+    </li>
+            <li>
+<a href="https://aptech.vn/tin-tuc/nhung-vu-hack-nghiem-trong-nhat-the-gioi-nam-2021.html">Những vụ hack nghiêm trọng nhất thế giới năm 2021</a>
+            <span class="post-date">05/01/2022</span>
+    </li>
+            <li>
+<a href="https://aptech.vn/tin-tuc/ly-do-nen-tao-linkedin-ngay-khi-con-la-sinh-vien.html">Lý do nên tạo LinkedIn ngay khi còn là sinh viên</a>
+            <span class="post-date">05/01/2022</span>
+    </li>
+            <li>
+<a href="https://aptech.vn/tin-tuc/rinh-qua-noel-aptech-2021.html">Quà tăng 25 triệu | Vui đón giáng sinh &#8211; Cùng rinh quà CHẤT</a>
+            <span class="post-date">21/12/2021</span>
+    </li>
+</ul>
+    </div>
+</div>
+</aside>
+</div>
+</main>
+    <!-- Inport thư viện JS Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

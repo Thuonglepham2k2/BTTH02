@@ -1,0 +1,19 @@
+.container-fluid{
+    padding: 0;
+}
+.navbar-brand img{width: 230px}
+.card{
+    padding: 20px;
+    border: 2px solid blue;
+    border-radius: 8px;
+}   
+.navbar{
+    width: 1200px; 
+    margin:0 auto;
+}
+.introduce{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    line-height: 35px;
+}

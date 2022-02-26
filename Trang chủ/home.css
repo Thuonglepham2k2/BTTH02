@@ -13,6 +13,7 @@ body{
     font-family: 'Archivo', sans-serif;
     font-size: 15px;
     font-weight: 600;
+    
 }
 
 
@@ -113,7 +114,7 @@ ol, ul {
 
 }
 .intro-col .intro-card{
-    width: 28%;
+    width: 30%;
     padding: 18px;
     border: 1px solid #e1e0e0;
 }
@@ -126,4 +127,146 @@ ol, ul {
     text-align: justify;
     margin-top: 20px;
     line-height: 23px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container1{
+    background-image: url("");
+    background-color: #1B187F;
+    width: 100%;
+}
+
+.container1 .header{
+    border: 2px solid #ffeb3b;
+    border-radius: 3px 3px 0px 0px;
+}
+.list-item{
+    font-size: 30px;
+    list-style: none;
+}
+.list{
+    justify-content: space-between;
+ padding-right: 20%;
+}
+.box-img{
+    margin-left: 150px;
+}
+.list_item-p{
+    border-left: 5px solid #FFBC08;
+    padding-left: 15px;
+}
+.container1 .header h5{
+    color: white;
+    padding: 10px 5px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container1 .content{
+
+    border-radius: 0px 0px 3px 3px;
+}
+
+.container1 .content .detail{
+
+    margin: 1rem auto 1rem auto;
+}
+
+.container1 .content .detail label{
+    font-size: small; 
+    margin: 10px auto 5px auto;  
+    color: rgb(129, 129, 129);
+}
+
+.container1 .content .detail label code{
+    color: rgb(248, 7, 7);
+}
+
+
+
+.container1 .content .detail .select select{
+    width: -webkit-fill-available;
+    height: 1.5rem;
+}
+
+.container1 .content .detail .button a {
+    text-decoration: none;
+}
+
+.container1 .content .detail .button .save{
+    margin: 5px 0px 0px 0px;
+    padding: 5px 5px;
+    background-color: #28A642;
+    color: white;
+    font-weight: 300;
+    border-radius: 2px;
+}
+
+.container1 .content .detail .button .delete{
+    margin: 5px 0px 0px 5px;
+    padding: 5px 7px;
+    background-color: #FFBC08;
+    border-radius: 2px;
+    font-weight: 300;
+}
+
+.space{
+    height: 10px;
+}
+.container2{
+    background-color: white;
+    width: 1500px;
+    color: black;
+}
+
+h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    line-height: 54px;
+    color: #0B249E;
+    background-color:white;
+    padding-left: 130px;
+    text-decoration:  none solid rgb(11, 36, 158);
+}
+h3{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 36px;
+    color: #000;
+    padding-left: 120px;
+    background-color: white;
+    text-decoration:  none solid rgb(0, 0, 0);
+}
+h4{
+    font-size: 21px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 31.5px;
+    text-align: center;
+    text-decoration:  none solid rgb(67, 63, 63);
+}
+.btn{
+    color: white;
+    background-color: green;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+}
+button{
+    margin: 0px 250px 0px 250px;
+}
+
+.col-5{
+
+    border-style: solid;
+    border-width: 0px 3px 0px 0px;
+    border-color: orange;
+    transition: border 0.3s, border-radius 0.3s, box-shadow 0.3s;
 }

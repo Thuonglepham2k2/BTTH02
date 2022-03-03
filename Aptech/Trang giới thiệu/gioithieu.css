@@ -56,7 +56,6 @@ section {
 	text-align: start;
 	text-indent: 0px;
 	text-transform: none;
-	vertical-align: baseline;
 	white-space: normal;
 	word-spacing: 0px;
 
@@ -301,7 +300,6 @@ div #primary {
 	/* Box */
 	height: 5248.64px;
 	width: 798px;
-	border: ;
 	border-top: 0px solid rgb(255, 255, 255);
 	border-right: 1px solid rgb(255, 255, 255);
 	border-bottom: 0px solid rgb(255, 255, 255);
